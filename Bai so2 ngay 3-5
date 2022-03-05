@@ -1,0 +1,21 @@
+const add = function(a,b) {
+  return a+b;
+};
+const subtract = function(a,b) {
+  return a-b;
+};
+const sum = function(a,b) {
+  return a/b;
+};
+const multiply = function(a,b) {
+  return a*b;
+};
+const power = function(a) {
+  return a*a;
+};
+
+console.log(add(5,7));
+console.log(subtract(5,7));
+console.log(sum(5,7));
+console.log(multiply(5,7));
+console.log(power(5,7));
